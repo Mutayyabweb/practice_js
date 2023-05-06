@@ -80,7 +80,7 @@
 
 
 // Numbers
-const score =50;
+// const score =50;
 // console.log(score,typeof(score));
 
 // Mathmaticall Operators * / % ** + -
@@ -104,4 +104,88 @@ const score =50;
 
 
 
-// 1.8 Type Conversionsss
+// 1.8 Type Conversions
+// let stringType ="54";
+// console.log(stringType,typeof stringType);
+
+// // Number Method
+// let nummberType = Number(stringType);
+// console.log(nummberType,typeof nummberType);
+
+// Imp
+//  // In number method passing String must be of numeric values
+
+// let numberType=54;
+// console.log(numberType, typeof numberType);
+// // String Method
+// let stringType =String(numberType)
+// console.log(stringType,typeof stringType);
+
+// Boolean Method true/false
+
+// let age =32;
+// let booleanValueOfAge=Boolean(age);
+
+// console.log("boolean value of age is",booleanValueOfAge);
+
+
+// 1.9 ARRAYS
+
+// let dish1="Biryani"; // let dish2="chat" //Bad Method
+// let dishes=['Biryani','chat','Parathay'];
+// Access
+// console.log(dishes[2]);
+// Modify Array
+// dishes[5]="Chicken"
+// console.log(dishes);
+
+
+// Array Methods
+
+// join Method 
+// console.log(dishes.join(' ')); //Is use to convert in single array
+
+// Index Of
+// console.log(dishes.indexOf('chat'));//is use to find index
+
+// concat method
+// let newDishes=["sweet-dishes",'pani-poray'];
+// console.log(dishes.concat(newDishes));
+
+// console.log(dishes.length);
+
+
+// Muteated method // THESES ARRAY METHODS CHANGES ORIGINAL ARRAYS
+//Push Method
+// console.log(dishes.push('chips','dode'));
+// console.log(dishes);
+
+// Methods pop()
+// console.log(dishes.pop());
+// console.log(dishes);
+
+
+
+// 1.10 Chapter 
+//Boolean Values And Comparison Operators
+// let booleanType =true;
+// let stringtype="true"
+// console.log(typeof booleanType,typeof stringtype);
+
+// MEHODS RETURN BOOLEAN VALUES
+// let email="wowcoder@gmail.com"
+// console.log(email.includes("@"));
+
+// COMPARISON OPERATORS ALWAYS RETURN BOOLEAN VALUE
+// == , === , !== , !=
+// >,>=
+// <,<=
+
+// let statu ="low";
+// console.log(statu == "low");
+
+// let points =23;
+// console.log(points == "23");
+// console.log(points === "23");
+// console.log(points != 234);
+// console.log(points >10);
