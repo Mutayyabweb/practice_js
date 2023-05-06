@@ -80,8 +80,28 @@
 
 
 // Numbers
-let score =50;
+const score =50;
 // console.log(score,typeof(score));
 
 // Mathmaticall Operators * / % ** + -
-let result =score/2; //Give Quotient  
+// const result =score / 2; //Give Quotient 
+// console.log(result); 
+// let result =score%2;//Give Reminder
+// console.log(result);
+
+
+
+// 1.7 Loose Equality (==) Vs Strict Equality Operator (===)
+
+// Loose Equality Operator ==
+// let age =22; //Number Type Value
+// console.log(age === "22"); //Focus Only on Value But Not Type 
+
+
+// Strict Equality Operator
+
+// console.log(age === "22"); //Focus on Both Value and Its Type
+
+
+
+// 1.8 Type Conversion
